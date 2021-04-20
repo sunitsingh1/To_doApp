@@ -5,6 +5,8 @@ from todo.forms import ToDoForm
 
 
 # Create your views here.
+
+
 def home(request):
     # return HttpResponse("Hello Home View")
     template_name = 'home.html'
